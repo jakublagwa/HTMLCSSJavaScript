@@ -5,6 +5,8 @@
     <meta name="description" content=""/>
     <meta name="keywords" content=""/>
     <title>Title of my page</title>
+    
+    <link rel="stylesheet" type"text/css" href="/css/style.css">
     </head>
     <body>
         <header>
@@ -16,8 +18,13 @@
         </nav>
         
         <section>
-            <h2>header of the sections</h2>
+            <h2>javascript</h2>
+            <p id="demo">Javascript can change html content.</p>
+            
+            <button type="button" onclick='document.getElementById("demo").innerHTML="Hello Javascript!"'>Click me</button>
         </section>
+        
+        <script src=myScript.js"></script>
         
         <footer>
         footer
