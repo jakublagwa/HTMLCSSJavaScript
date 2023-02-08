@@ -1,65 +1,61 @@
 <!DOCTYPE html>
 <html>
-/*te oznaczenia naglowkow itd są kompleetnie beznadziejne do poprawy oraz dodac bootstrap opcjonalnie*?
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-    <meta http-equiv="Pragma" content="no-cache" />
-    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
-    <meta http-equiv="Expires" content="0" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
-    <title>Jakub Łągwa</title>
-</head>
+  <head>
+    <!-- Ustawienie kodowania strony na UTF-8 -->
+    <meta charset="UTF-8">
 
-<body>
-    <main>
-        <div class="info-box">
-            <h1>Na tej stronie znajdą się informacje o moich projektach, które stworzyłem i nad którymi będę pracował.</h1>
-        </div>
-    </main>
-<section>
-  <h1>Moje umiejętności</h1>
-</section>
-<section>
-  <ul>
-    <li>
-      <h2>umniejętność</h2>
-      <p>potrafie to to i to</p>
-      <img src="ikona">
-    </li>
-    <li>
-      <h2>umiejetnosc</h2>
-      <p>.</p>
-      <img src="grafika.png" alt="ikona">
-    </li>
-    <li>
-      <h2>Angielski na poziomie B2</h2>
-      <p>Potwierdzone certyfikatem FCE</p>
-      <img src="strony_internetowe.png" alt="ikona">
-    </li>
-  </ul>
-</section>
-<section>
-    <p>Moje projekty:</p>
-    <nav>
-    <ul>
-      <li><a href="strona1.html">Strona 1</a></li>
-      <li><a href="strona2.html">Strona 2</a></li>
-      <li><a href="strona3.html">Strona 3</a></li>
-    </ul>
-  </nav>
-    </section>
-    <footer>
-        <p>Jakub Łągwa</p>
-        <ul>
-            <li><a href="">Github</a></li>
-            <li><a href="">Facebook</a></li>
-            <li><a href="">Linkedln</a></li>
+    <!-- Ustawienie tytułu strony -->
+    <title>Moja Strona</title>
+
+    <!-- Ładowanie Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      
+     <link rel="stylesheet" href="/assets/css/style.css">
+
+  </head>
+  <body>
+
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Moja Strona</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Strona Główna</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">O nas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Usługi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Kontakt</a>
+          </li>
         </ul>
-        <p>Piotrków Trybunalski, Polska</p>
-    </footer>
-</body>
+      </div>
+    </nav>
 
-</html>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-6">
+          <h1>Treść pierwszej części</h1>
+        </div>
+        <div class="col-6">
+          <h1>Treść drugiej części</h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- Stopka -->
+    <footer class="bg-light py-3">
+      <div class="container">
+        <p class="text-center">&copy; Moja Strona 2023</p>
+      </div>
+    </footer>
+
+    <!-- Ładowanie jQuery i Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity
