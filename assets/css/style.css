@@ -11,23 +11,25 @@ body{
     margin: 0;
     padding: 0;
     width: 100%;
-    background-color: #1EE6CB;
-}
-
-main{
-    background-color: #1EE65A;
-    
+    background-color: #1c2331;
+    font-family: 'Open Sans', sans-serif;
 }
 
 header{
-    background-color: #2DFCA6;
+    background-color: #0f3d91;
 }
+
+main{
+    background-color: #384259;
+    
+}
+
 
 footer{
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #21FE25;
+    background-color: #0f3d91;
     border-top: 1px solid #ccc; 
 }
